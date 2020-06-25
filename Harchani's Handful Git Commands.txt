@@ -78,6 +78,9 @@ git fetch origin pull/ID/head:BRANCHNAME
 git checkout BRANCHNAME
 // To fetch a remote PR into your local repo and to check/test the changes
 
+git clean -fdx
+// forcefully delete all unstaged local files
+
 -----------------------------------------------------------
 
 On branch -a 
