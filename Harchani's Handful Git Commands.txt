@@ -80,6 +80,7 @@ git checkout BRANCHNAME
 
 git clean -fdx
 // forcefully delete all unstaged local files
+"Typical usage for this would be in build scripts, when you must make sure that your tree is absolutely clean - does not have any modifications or locally created object files or build artefacts, and you want to make it work very fast and to not re-clone whole repository every single time."
 
 -----------------------------------------------------------
 
