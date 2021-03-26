@@ -95,3 +95,6 @@ git rebase -Xours branch-b
 // Will rebase/merge branches giving priority to branch-b when merge conflict arises
 
 -----------------------------------------------------------
+
+git branch | grep -v "master" | xargs git branch -D 
+// Remove all your local git branches but keep master
